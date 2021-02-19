@@ -1,0 +1,41 @@
+body {
+  background-color: aliceblue;
+  text-align: center;
+  font-size: 16pt;
+  font-family: "Gill Sans", "Gill Sans MT", Calibri, "Trebuchet MS", sans-serif;
+}
+
+.question,
+.code-area {
+  padding: 25px;
+  display: table-cell;
+  width: 50%;
+}
+.question {
+  text-align: left;
+  position: absolute;
+  top: 0vh;
+}
+.code-area {
+  border-left: 2px solid navy;
+}
+
+.input,
+#results {
+  height: 60%;
+}
+.input {
+  border: 1px solid gray;
+  width: 90%;
+  font-family: monospace;
+  font-size: 12pt;
+  padding: 10px;
+}
+button {
+  width: 150px;
+  height: 50px;
+  cursor: pointer;
+  background-color: lightgreen;
+  color: white;
+  font-weight: bolder;
+}
